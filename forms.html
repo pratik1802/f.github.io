@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1><u>personal details</u> </h1>
+    <form method="post">
+        <label for="fname">firstname</label>
+        <input type="text" name="fname" id="fname" required><br>
+        <!-- use  -->
+        Password:
+        <input type="password" name="password" placeholder="password" required><br>
+        E-mAIL:
+        <input type="email" name="mail" required><br>
+        Gender:
+        <input type="radio" name="gender" required> male
+        <input type="radio" name="gender" required> female
+        <input type="radio" name="gender" required> other
+        <br><br>
+        contact:
+        <input type="tel" name="phone" maxlength="10" required><br>
+
+        <h1 align="center"><u> Education qualifiation </u></h1><br>
+        Degree:
+        <select groups="Degree">
+            <option value="mca" required> mca </option>
+            <option value="bca" required> bca </option>
+            <option value="mtech" required> mtech </otion>
+        </select><br>
+        <h1 align="center"><u> Engineering </u></h1><br>
+        Hobbies:
+        <input type="checkbox" name="travelling" required> travelling
+        <input type="checkbox" name="ruby" required> ruby
+        <input type="checkbox" name="football" required> football
+        <br>
+        <h1 align ="center"> Address </h1>
+        <textarea name="message" rows="5" cols="5"></textarea><br>
+        Select files:
+        <input type="file" name="file" multiple required> <br>
+        <input type="submit">
+        <input type="reset"><br><br>
+        <form>
+            <label for="selectbrowser">chosse your browser</label>
+            <input list="selectbrowser" name="browser">
+            <datalist id="selectbrowser">
+                <option value="internetexplorerer">
+                <option value="operatexplorerer">
+                <option value="chrome">
+                </option>
+
+            </datalist><br>
+
+                                 
+
+
+        </form>
+</body>
+
+</html>
